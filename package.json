@@ -2,8 +2,9 @@
   "name": "fulltilt",
   "title": "Full Tilt",
   "version": "0.7.0",
+  "main": "dist/fulltilt.js",
   "description": "Standalone device orientation + device motion normalization and conversion library",
-  "homepage": "http://github.com/richtr/Full-Tilt",
+  "homepage": "http://github.com/lazerwalker/Full-Tilt",
   "author": {
     "name": "Rich Tibbett"
   },
@@ -22,15 +23,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/richtr/Full-Tilt"
+    "url": "https://github.com/lazerwalker/Full-Tilt"
   },
   "bugs": {
-    "url": "https://github.com/richtr/Full-Tilt/issues"
+    "url": "https://github.com/lazerwalker/Full-Tilt/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/richtr/Full-Tilt/blob/master/LICENSE.txt"
+      "url": "https://github.com/lazerwalker/Full-Tilt/blob/master/LICENSE.txt"
     }
   ],
   "dependencies": {},
