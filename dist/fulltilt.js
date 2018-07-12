@@ -14,13 +14,6 @@
  *
  */
 
-(function ( window ) {
-
-// Only initialize the FULLTILT API if it is not already attached to the DOM
-if ( window.FULLTILT !== undefined && window.FULLTILT !== null ) {
-	return;
-}
-
 var M_PI   = Math.PI;
 var M_PI_2 = M_PI / 2;
 var M_2_PI = 2 * M_PI;
@@ -1375,9 +1368,4 @@ FULLTILT.DeviceMotion.prototype = {
 
 };
 
-
-////// Attach FULLTILT to root DOM element //////
-
-window.FULLTILT = FULLTILT;
-
-})( window );
+export default FULLTILT;
